@@ -1,3 +1,55 @@
+.LogoApel img {
+  width: 100px;
+}
+.Conceptos {
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #FFF;
+  opacity: .5;
+}
+.Conceptos h1.Texto {
+  font-family: 'Combo', cursive;
+  font-size: 50px;
+  color: #000;
+}
+
+.Conceptos p.Texto {
+  font-family: 'Combo', cursive;
+  font-size: 30px;
+  color: #000;
+}
+
+.Conceptos_detalle .info img {
+  width: 60px;
+}
+
+.Requerimiento_Detalle .info img {
+  width: 120px;
+}
+.Requerimiento_Detalle .info h4 {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  
+}
+
+.Clasificacion h3 {
+  text-align: left;
+  font-weight: 900;
+}
+
+.Clasificacion p {
+  text-align: left;
+  font-size: 18px;
+}
+
+.Clasificacion img {
+  width: 200px;
+  height: 200px;
+  padding-bottom: 20px;
+}
+
+
 .tim-row {
   margin-bottom: 20px;
 }
@@ -372,6 +424,7 @@
     height: 640px;
     overflow: hidden;
   }
+
   .parallax .parallax-image img {
     height: 100%;
     width: auto;
@@ -435,10 +488,12 @@
 }
 
 @media (max-width: 768px) {
+
   .btn,
   .btn-morphing {
     margin-bottom: 10px;
   }
+
   .parallax .motto {
     top: 170px;
     margin-top: 0;
