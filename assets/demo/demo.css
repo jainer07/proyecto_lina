@@ -1,12 +1,18 @@
+.navbar.navbar-transparent {
+  padding-top: 10px;
+}
+
 .LogoApel img {
   width: 100px;
 }
+
 .Conceptos {
   border-radius: 20px;
   padding: 30px;
   background-color: #FFF;
   opacity: .5;
 }
+
 .Conceptos h1.Texto {
   font-family: 'Combo', cursive;
   font-size: 50px;
@@ -26,11 +32,12 @@
 .Requerimiento_Detalle .info img {
   width: 120px;
 }
+
 .Requerimiento_Detalle .info h4 {
   margin: 0;
   margin-top: 20px;
   margin-bottom: 60px;
-  
+
 }
 
 .Clasificacion h3 {
@@ -49,6 +56,24 @@
   padding-bottom: 20px;
 }
 
+.Tipificacion_Detalle .info img {
+  width: 120px;
+}
+.Hallazgo_Detalle ul li {
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+.Hallazgo_Detalle iframe {
+  width: 100%;
+  height: 300px;
+}
+@media (min-width: 1200px) {
+
+  .navbar .container,
+  .Hallazgo_Detalle .container {
+    max-width: 1300px !important;
+  }
+}
 
 .tim-row {
   margin-bottom: 20px;

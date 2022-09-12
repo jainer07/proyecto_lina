@@ -37,13 +37,14 @@ The above copyright notice and this permission notice shall be included in all c
   <link href="./assets/demo/demo.css" rel="stylesheet" />
 </head>
 
-<body class="landing-page sidebar-collapse">
+<body class="profile-page sidebar-collapse">
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="300">
     <div class="container">
       <div class="navbar-translate">
-        <a class="navbar-brand LogoApel" href="./index.html" rel="tooltip" title="Coded by Creative Tim" data-placement="bottom">
-          <img src="./assets/img/Logo_APEL.png" alt="APEL"/>
+        <a class="navbar-brand LogoApel" href="./index.html" rel="tooltip" title="Coded by Creative Tim"
+          data-placement="bottom">
+          <img src="./assets/img/Logo_APEL.png" alt="APEL" />
         </a>
         <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
           aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,98 +80,56 @@ The above copyright notice and this permission notice shall be included in all c
     </div>
   </nav>
   <!-- End Navbar -->
-  <div class="page-header" data-parallax="true" style="background-image: url('./assets/img/Fondo_Clasificaion.jpeg');">
+  <div class="page-header page-header-xs" data-parallax="true"
+    style="background-image: url('../assets/img/fabio-mangione.jpg');">
     <div class="filter"></div>
+  </div>
+  <div class="section profile-content">
     <div class="container">
-      <div class="motto text-center">
-        <h1>Clasificación lesión</h1>
-      </div>
-    </div>
-  </div>
-  <div class="main">
-    <div class="section text-center">
-      <div class="container">
-        <div class="row Clasificacion">
-          <div class="col-md-8">
-            <h3 class="pb-3">Riesgos físicos</h3>
-            <p>Son los generados por las alteraciones del ambiente en el lugar de trabajo. Incluyen ruido, vibraciones, iluminación, temperatura y radiaciones.</p>
-          </div>
-          <div class="col-md-4">
-            <img src="./assets/img/RiesgoFisico_1.png"/>
-          </div>
-          <div class="col-md-8">
-            <h3 class="pb-3">Riesgos químicos</h3>
-            <p>Producidos por los materiales con los que se trabaja. Los daños pueden ser ocasionados por el estado de un producto químico, como gases, aerosoles o vapores. También, por su efecto en el organismo (irritación, asfixia, intoxicación, alergia, cáncer, entre otros).</p>
-          </div>
-          <div class="col-md-4">
-            <img src="./assets/img/RiesgoQuimico_2.png"/>
-          </div>
-          <div class="col-md-8">
-            <h3 class="pb-3">Riesgos psicosociales</h3>
-            <p>Características del trabajo que generan estrés o tienen efectos sobre la conducta, concentración y estado de ánimo del personal.</p>
-          </div>
-          <div class="col-md-4">
-            <img src="./assets/img/RiesgoPsicosocial_1.png"/>
-          </div>
-          <div class="col-md-8">
-            <h3 class="pb-3">Riesgos de seguridad.</h3>
-            <p>Dentro de estos se encuentran los problemas con las instalaciones de servicios, el orden, la limpieza, la señalización y las pautas de trabajo indicadas en manuales y procedimientos.  Incluyen los riesgos mecánicos, provenientes de elementos, herramientas, infraestructura o instalaciones en general.</p>
-          </div>
-          <div class="col-md-4">
-            <img src="./assets/img/RiesgoSeguridad_1.png"/>
-          </div>
+      <div class="owner">
+        <div class="avatar">
+          <img src="../assets/img/favicon.png" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+        </div>
+        <div class="name">
+          <h4 class="title">APEL</h4>
+          <h6 class="description">Acciones Preventivas de las Enfermedades Laborales</h6>
         </div>
       </div>
-    </div>
-    <div class="section landing-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 ml-auto mr-auto">
-            <h2 class="text-center">Reportar hallazgos</h2>
-            <p class="pt-3 text-center">Los hallazgos reportados seran recibidos en el correo institucional: <span style="color: rgb(6, 6, 246)">Correoinstitucional@gmail.com.co</span></p>
-            <form class="contact-form">
-              <div class="row">
-                <div class="col-md-6">
-                  <label>Nombre</label>
-                  <div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">
-                        <i class="nc-icon nc-single-02"></i>
-                      </span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Nombre">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <label>Correo electrónico</label>
-                  <div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">
-                        <i class="nc-icon nc-email-85"></i>
-                      </span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Correo electrónico">
-                  </div>
-                </div>
-              </div>
-              <label>Mensaje</label>
-              <textarea class="form-control" rows="4" placeholder="Escribe aqupi tu mensaje..."></textarea>
-              <div class="mb-3">
-                <label for="formFile" class="form-label">Default file input example</label>
-                <input class="form-control" type="file" id="formFile" accept=".png,.jpg,.jpeg">
-              </div>
-              <div class="row">
-                <div class="col-md-4 ml-auto mr-auto">
-                  <button class="btn btn-danger btn-lg btn-fill">Enviar mensaje</button>
-                </div>
-              </div>
-            </form>
+      <br />
+      <div class="nav-tabs-navigation">
+        <div class="nav-tabs-wrapper">
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#mision" role="tab">Misión</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#vision" role="tab">Visión</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Tab panes -->
+      <div class="tab-content following">
+        <div class="tab-pane active" id="mision" role="tabpanel">
+          <div class="row">
+            <div class="col-md-6 ml-auto mr-auto text-center" style="color: red">
+              <p>An artist of considerable range, Jane Faker — the name taken by Melbourne-raised, Brooklyn-based Nick
+                Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid
+                groove structure. </p>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane text-center" id="vision" role="tabpanel">
+          <div class="col-md-6 ml-auto mr-auto text-center">
+            <p>An artist of considerable range, Jane Faker — the name taken by Melbourne-raised, Brooklyn-based Nick
+              Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid
+              groove structure. </p>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <footer class="footer   footer-white ">
+  <footer class="footer    ">
     <div class="container">
       <div class="row">
         <nav class="footer-nav">
